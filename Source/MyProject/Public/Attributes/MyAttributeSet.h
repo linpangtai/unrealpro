@@ -43,14 +43,14 @@ public:
 
 protected:
 	UFUNCTION()
-	void OnRep_Health(const FGameplayAttributeData& OldHealth);
+	void OnRep_Health();
 
 	UFUNCTION()
-	void OnRep_MaxHealth(const FGameplayAttributeData& OldMaxHealth);
+	void OnRep_MaxHealth();
 
 	UFUNCTION()
-	void OnRep_Mana(const FGameplayAttributeData& OldMana);
+	void OnRep_Mana();
 
 	UFUNCTION()
-	void OnRep_MaxMana(const FGameplayAttributeData& OldMaxMana);
+	void OnRep_MaxMana();
 };

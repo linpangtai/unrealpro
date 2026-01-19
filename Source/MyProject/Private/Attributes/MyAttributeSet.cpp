@@ -36,22 +36,22 @@ void UMyAttributeSet::PostGameplayEffectExecute(const FGameplayEffectModCallback
 	}
 }
 
-void UMyAttributeSet::OnRep_Health(const FGameplayAttributeData& OldHealth)
+void UMyAttributeSet::OnRep_Health()
 {
 	GAMEPLAYATTRIBUTE_REPNOTIFY(UMyAttributeSet, Health);
 }
 
-void UMyAttributeSet::OnRep_MaxHealth(const FGameplayAttributeData& OldMaxHealth)
+void UMyAttributeSet::OnRep_MaxHealth()
 {
 	GAMEPLAYATTRIBUTE_REPNOTIFY(UMyAttributeSet, MaxHealth);
 }
 
-void UMyAttributeSet::OnRep_Mana(const FGameplayAttributeData& OldMana)
+void UMyAttributeSet::OnRep_Mana()
 {
 	GAMEPLAYATTRIBUTE_REPNOTIFY(UMyAttributeSet, Mana);
 }
 
-void UMyAttributeSet::OnRep_MaxMana(const FGameplayAttributeData& OldMaxMana)
+void UMyAttributeSet::OnRep_MaxMana()
 {
 	GAMEPLAYATTRIBUTE_REPNOTIFY(UMyAttributeSet, MaxMana);
 }
